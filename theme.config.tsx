@@ -2,17 +2,27 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>Lab kdsign.com</span>,
+  logo: <span><strong>Kdsign Lab:</strong> A Creative Coding Notebook</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/yumyo/creative-coding-notebook',
   },
   chat: {
     link: 'https://discord.com',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/yumyo/creative-coding-notebook',
   footer: {
-    text: 'Nextra Docs Template',
+    component: '',
   },
+  sidebar: {
+    toggleButton: true
+  },
+  editLink: {
+    component: null
+  },
+  toc:{
+    backToTop: true,
+  }
+
 }
 
 export default config

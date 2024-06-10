@@ -1,10 +1,18 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": {
+    "title": "Home",
+    "theme": {
+      "layout": "default"
+    }
+  },
+  "threejs": "Three JS",
+  "p5": "P5.js",
+  "bookmarks": "Bookmarks",
+  "c3fest": {
+    "title": "C3 Festival"
+  },
   "about": {
-    "title": "About",
-    "type": "page"
+    "title": "About"
   },
   "contact": {
     "title": "Contact ↗",
