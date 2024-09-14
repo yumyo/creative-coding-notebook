@@ -175,6 +175,19 @@
   resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.5.6.tgz#4a3e2a206251abc729339ba85f60bc0433c2865d"
   integrity sha512-Cqfe1YmOS7k+5mGu92nl5ULkzpKuxJrP3+4AEuPmrpFZ3BHxTY3TnHmU1On3bFmFFs6FbTcdF58CCUProGpIGQ==
 
+"@p5-wrapper/next@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@p5-wrapper/next/-/next-1.0.3.tgz#c32f3454faa69bbe35734aa2a19235f6e3c3f8d4"
+  integrity sha512-7Ty2LDEye53xMFSi1hhf67KgnUt7g+KCR+cP6Vi0lJumvyN5buVwhDkuNk8NX03THkwghKN4LaV0NeHgh8qQjQ==
+
+"@p5-wrapper/react@^4.4.2":
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/@p5-wrapper/react/-/react-4.4.2.tgz#d25a44b45bc836d8bb63fc8925fed36714d2a3d8"
+  integrity sha512-jRUy0OAP54gYl84mhJPDoPc7DutQ1Gi2dq2AnFpswQwye+Rb0EVTc7JeAwcgYCs4+ZyDsKeN9GqpYE3RR3jMZQ==
+  dependencies:
+    microdiff "^1.4.0"
+    p5 "^1.9.4"
+
 "@popperjs/core@^2.11.8":
   version "2.11.8"
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
@@ -1601,6 +1614,11 @@ mermaid@^10.2.2:
     uuid "^9.0.0"
     web-worker "^1.2.0"
 
+microdiff@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/microdiff/-/microdiff-1.4.0.tgz#d7fd98a6db602cd8d3ab4463ed7c0340ff9a6f2c"
+  integrity sha512-OBKBOa1VBznvLPb/3ljeJaENVe0fO0lnWl77lR4vhPlQD71UpjEoRV5P0KdQkcjbFlBu1Oy2mEUBMU3wxcBAGg==
+
 micromark-core-commonmark@^1.0.0, micromark-core-commonmark@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/micromark-core-commonmark/-/micromark-core-commonmark-1.1.0.tgz#1386628df59946b2d39fb2edfd10f3e8e0a75bb8"
@@ -2150,6 +2168,11 @@ p-limit@^3.1.0:
   integrity sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==
   dependencies:
     yocto-queue "^0.1.0"
+
+p5@^1.10.0, p5@^1.9.4:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/p5/-/p5-1.10.0.tgz#91dd95e7266d943718e565119106cbb419d49e66"
+  integrity sha512-6cWYBFhnZz7jNC6p1VWvlt3QReMqrRSmO90bgECQIKB9oko2w/sKrOAVMyei5tjIzSYcSY0JHy+BRtSAWq24jQ==
 
 parse-entities@^4.0.0:
   version "4.0.1"
